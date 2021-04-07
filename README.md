@@ -1,0 +1,1 @@
+##A Web App that communicates to NLP model (Self Trained Logistics Regression 98% Accuracy) via FastAPI to detects which language input is given. It supports 5 languages (Russian, French, Spanish, Chinese and English) currently but its a matter of seconds to add more.
