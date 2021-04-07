@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet" />
+		<title>Language Detector</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="inputs-container">
+				<h1>Language Detection Model</h1>
+				<div class="input">
+					<input type="text" id="lang_data" required />
+					<label class="label">Type Here</label>
+					<button type="submit" class="btn submit" onclick="langDetect()">
+						Detect Language
+					</button>
+					<div class="result"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="{{ url_for('static', path='/script.js') }}"></script>
+</html>
